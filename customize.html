@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="En biludlejnings side til favorable priser">
+        <meta name="keywords" content="biler, elbil, moderne, nyt">
+        <title>Electra</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="/stylesheet.css" rel=stylesheet>
+    </head>
+
+    <body>
+
+      <!-- Menu -->
+        
+        <header class="header">
+            <a href="http://aeeux.tech/electra/index.html" class="logo">ELECTRA</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="index.html">Hjem</a></li>
+              <li><a href="voresteknologi.html">Vores teknologi</a></li>
+              <li><a href="bestil.html">Køb</a></li>
+              <li><a href="oplev.html ">Oplev Electra</a></li>
+              <li><a href="customize.html">Byg din bil</a></li>
+              <li class="slide"></li>
+            </ul>
+          </header>
+
+        <!-- Content Start -->
+
+        <div class="main">
+            <div class="title">
+             <a id="title" class="textmain"></a>
+              <b>Customizer</b>
+            </div>
+        </div>
+
+        <!-- Product card - Color CUSTOMIZER -->
+
+        <div class="container-customize">
+          <div class="card">
+            <div class="card-head">
+              <img src="images/sortbil.png" alt="product-img" class="product-img" id="jetblack">
+              <div class="product-detail">
+                <h2>Vælg farve</h2>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="product-desc">
+
+                <span class="product-title">
+                        ELECTRA<b>Color</b>
+                        <span class="badge">
+                          Nyhed
+                        </span>
+                </span>
+
+                <span class="product-caption">
+                        Ny funktion
+                </span>
+
+              <section class="product-color">
+                <h4>Vælg Farve</h4>
+                <ul class="ul-color">
+                  <!-- Anchor start -->
+                  <a href="ColorCustomize"></a>
+                  <!-- Anchor slut -->
+                  <li><a href="#ColorCustomize" class="jetblack active" onclick="changejetblack();"></a></li>
+                  <li><a href="#ColorCustomize" class="ruby" onclick="changeruby();"></a></li>
+                  <li><a href="#ColorCustomize" class="emerald" onclick="changeemerald();"></a></li>
+                  <li><a href="#ColorCustomize" class="cyan" onclick="changecyan();"></a></li>
+                  <li><a href="#ColorCustomize" class="snowy" onclick="changesnowy();"></a></li>
+                </ul>
+              </section>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product card slut - Color CUSTOMIZER -->
+
+        <!-- Product card - Interiør CUSTOMIZER -->
+
+        <div class="container-customize2">
+          <div class="card2">
+            <div class="card-head2">
+              <img src="images/stof.png" alt="product-img" class="product-img2" id="fabric">
+              <div class="product-detail2">
+                <h2>Vælg Interiør</h2>
+              </div>
+            </div>
+
+            <div class="card-body2">
+                <span class="product-title2">
+                        ELECTRA<b>interior</b>
+                        <span class="badge2">
+                          Nyhed
+                        </span>
+                </span>
+
+                <span class="product-caption2">
+                        Ny funktion
+                </span>
+
+              <section class="product-color2">
+                <h4>Vælg Interiør</h4>
+                <ul class="ul-color2">
+                  <!-- Anchor start -->
+                  <a href="TextureCustomize"></a>
+                  <!-- Anchor slut -->
+                  <li><a href="#TextureCustomize" class="fabric" onclick="changefabric();"></a></li>
+                  <li><a href="#TextureCustomize" class="leather" onclick="changeleather();"></a></li>
+                </ul>
+              </section>
+             
+            </div>
+          </div>
+        </div>
+
+        <!-- Product card slut - Interiør CUSTOMIZER -->
+
+
+        <!-- Product card - Fælge CUSTOMIZER -->
+
+        <div class="container-customize3">
+          <div class="card3">
+            <div class="card-head3">
+              <img src="images/fælge1_2.jpg" alt="product-img" class="product-img2" id="17">
+              <div class="product-detail3">
+                <h2>Vælg Fælge</h2>
+              </div>
+            </div>
+
+            <div class="card-body3">
+                <span class="product-title3">
+                        ELECTRA<b>rims</b>
+                        <span class="badge3">
+                          Nyhed
+                        </span>
+                </span>
+
+                <span class="product-caption3">
+                        Ny funktion
+                </span>
+
+              <section class="product-color3">
+                <h4>Vælg Fælge</h4>
+                <ul class="ul-color3">
+                  <!-- Anchor start -->
+                  <a href="RimCustomize"></a>
+                  <!-- Anchor slut -->
+                  <li><a href="#RimCustomize" class="lillefælge" onclick="change17();"></a></li>
+                  <li><a href="#RimCustomize" class="storfælge" onclick="change22();"></a></li>
+                </ul>
+              </section>
+
+            <section>
+                <a href="http://jens-hecksher.dk/electra/bestil.html" class="button2">Bestil<b>Electra</b></a>
+            </section>
+              
+             
+            </div>
+          </div>
+        </div>
+
+        <!-- Product card slut - Fælge CUSTOMIZER -->
+
+        <!-- Content Slut -->
+
+
+        <!--JS-->
+        <script src="js/customizer.js"></script>
+        <!--JS-->
+
+
+          <!-- Footer Start -->
+
+    <footer class="site-footer">
+              <p class="text-justify">Electra.com <i><br>Get Your Affordable Car<br></i></p>
+
+        <div class="container-footer">
+              <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+           <a href="http://aeeux.tech/electra/index.html">Electra</a>.
+              </p>
+        </div>
+
+    </footer>
+
+          <!-- Footer Slut -->
+
+        </body>
+
+</html>
