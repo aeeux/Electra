@@ -192,9 +192,9 @@
     top: 0;
   }
   
-  /* 56.25 = 900 */
+  /* 61.563 = 985 */
   
-  @media (min-width: 56.25) {
+  @media (min-width: 61.563em) {
     .header li {
       float: left;
     }
