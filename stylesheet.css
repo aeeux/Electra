@@ -23,8 +23,17 @@
   line-height: 1.5;
   margin: 0px 0px 0px 0px;
   font-family: 'Sofia Pro', Sans-serif;
-  background: url('images/bmwwwwww.jpg') center no-repeat;
+  background: url('images/bmwww.jpg') center no-repeat;
   background-position: 40% 18%;
+  text-align: center;
+}
+
+.customize {
+  background-color: var(--moonlitasteroid);
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Sofia Pro', Sans-serif;
   text-align: center;
 }
 
@@ -34,8 +43,8 @@
   line-height: 1.5;
   margin: 0px 0px 0px 0px;
   font-family: 'Sofia Pro', Sans-serif;
-  background: url('images/bmwwwwww.jpg') center no-repeat;
-  background-position: 40% 18%;
+  background: url('images/electrateknologi.jpg') center no-repeat;
+  background-position: 40% 20%;
   text-align: center;
 }
 
@@ -214,6 +223,12 @@
     position: center;
 }
 
+.clearfix {
+
+    padding-bottom: 80px;
+
+}
+
 .pbox {
 	text-align: center;
 	padding-top: 0px;
@@ -261,7 +276,6 @@ a.button{
     margin-left: -80px;
     margin-top: 40px;
     }
-
 
 
 /* footer */
@@ -348,7 +362,7 @@ a.button{
     display: flex;
     flex-flow: row wrap;
   }
-  
+  /* note */
   .footer__nav > * {
     flex: 1 50%;
     margin-right: 1em;
@@ -409,6 +423,5 @@ a.button{
 
    
   
-
 
 
