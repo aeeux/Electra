@@ -45,7 +45,7 @@
   line-height: 1.5;
   margin: 0px 0px 0px 0px;
   font-family: 'Sofia Pro', Sans-serif;
-  background: url('images/bmwwwwww.jpg') center no-repeat;
+  background: url('images/bmwelectra.jpg') center no-repeat;
   background-position: 40% 18%;
   text-align: center;
 }
@@ -381,5 +381,34 @@ a.button{
       flex: 2 0px;
     }
   }
+ 
+  input[type=text], select, textarea {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    padding: 12px; 
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin-top:1.5rem;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+
+  } 
+  .container2 {
+    margin-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+  }
+
+
+  
+ 
+
+   
+  
+
 
 
