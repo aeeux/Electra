@@ -339,7 +339,6 @@ input[type=text], select, textarea {
   padding-left: 1em;
   padding-right: 1em;
   
-
 }
 
 .valg{
@@ -372,7 +371,7 @@ h2{
 }
 
 .container2 {
-  margin-top: 100px;
+  margin-top: 200px;
   padding-left: 20%;
   padding-right: 20%;
 
@@ -411,6 +410,12 @@ h2{
     background-color: #203B46;
     margin: 0;
     
+  }
+  .container2 {
+    margin-top: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+  
   }
   
 }
