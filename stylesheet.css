@@ -17,6 +17,40 @@
     text-align: center;
 }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.book {
+  background-color: var(--moonlitasteroid);
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Sofia Pro', Sans-serif;
+  background: url('images/bmwwwwww.jpg') center no-repeat;
+  background-position: 40% 18%;
+  text-align: center;
+}
+
+
     a {
     color: var(--black);
     font-size: 0.8rem;
