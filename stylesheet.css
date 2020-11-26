@@ -419,14 +419,13 @@ h2{
 
 /* ProductCard - COLOR CUSTOMIZER */
 
-.customizesection {
+.productcards {
+  margin: auto auto auto auto;
   position: relative;
-  align-items: center;
 }
 
 .container-customize1 {
   position: relative;
-  display: grid;
   width: 280px;
   height: 500px;
   margin: 0px 0px 0px 0px;
@@ -434,18 +433,16 @@ h2{
 
 .container-customize2 {
   position: relative;
-  display: grid;
   width: 280px;
   height: 500px;
-  margin: -500px 0px 0px 400px;
+  margin: -500px 0px 0px 300px;
 }
 
 .container-customize3 {
   position: relative;
-  display: grid;
   width: 280px;
   height: 500px;
-  margin: -500px 0px 0px 800px;
+  margin: -500px 0px 0px 600px;
 }
 
 .card-head {
@@ -895,16 +892,23 @@ h2{
     margin-top: 1.3em;
     font-size: 15px;
     font-weight: 400;
+    color: var(--black);
   }
   
   .nav__title {
     font-weight: 400;
     font-size: 15px;
+    color: var(--black);
   }
   
   .footer address {
     font-style: normal;
     color: #999;
+  }
+
+  .footer .legal{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
   }
   
   .footer__btn {
@@ -977,4 +981,19 @@ h2{
     .footer__nav {
       flex: 2 0px;
     }
-  }  
+  }
+
+  @media screen and (max-width: 1081px) {
+    .container-customize1 {
+      margin: auto; 
+    }
+    
+    .container-customize2 {
+      margin: auto;
+    }
+
+    .container-customize3 {
+      margin: auto;
+    }
+
+    }
