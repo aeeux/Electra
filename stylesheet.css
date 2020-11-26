@@ -986,7 +986,7 @@ h2{
     }
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 985px) {
     .container-customize1 {
       margin: auto; 
     }
