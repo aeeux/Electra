@@ -887,8 +887,10 @@ a.button-customize{
   .container {
     width:45%;  
     background-color: #203B46;
-    padding-top: .8em;
-    padding-bottom: 2em;
+    padding-top: 0.11em;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
     
 
   }
@@ -911,6 +913,10 @@ a.button-customize{
     margin-left: 1mm;
   }
 
+  section p{
+    font-weight: 100;
+    font-size: 90%;
+  }
   
   .container2 {
     margin-top: 100px;
