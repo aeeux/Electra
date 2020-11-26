@@ -23,7 +23,7 @@
   line-height: 1.5;
   margin: 0px 0px 0px 0px;
   font-family: 'Sofia Pro', Sans-serif;
-  background: url('images/bmwwwwww.jpg') center no-repeat;
+  background: url('images/bmwww.jpg') center no-repeat;
   background-position: 40% 18%;
   text-align: center;
 }
@@ -214,6 +214,12 @@
     position: center;
 }
 
+.clearfix {
+
+    padding-bottom: 80px;
+
+}
+
 .pbox {
 	text-align: center;
 	padding-top: 0px;
@@ -261,7 +267,6 @@ a.button{
     margin-left: -80px;
     margin-top: 40px;
     }
-
 
 
 /* footer */
