@@ -35,6 +35,7 @@
   margin: 0px 0px 0px 0px;
   font-family: 'Sofia Pro', Sans-serif;
   text-align: center;
+  align-items: center;
 }
 
 .voresteknologi {
@@ -279,6 +280,28 @@ a.button{
     margin-top: 40px;
     }
 
+/* Knap Customize */
+
+a.button-customize{
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Sofia Pro',sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: var(--black);
+  background-color: var(--white);
+  transition: all 0.2s;
+  margin-left: -5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
 
 /* Customizer */
 
@@ -400,11 +423,6 @@ a.button{
   color: #000;
 }
 
-.ul-size li a.active {
-  background: rgb(0, 255, 0);
-  color: #fff;
-}
-
 .product-color h4 {
   font-size: 11px;
   padding: 0 0px;
@@ -451,19 +469,7 @@ a.button{
   background: #19a3c9;
 }
 
-.ul-color li a.active:after {
-  position: absolute;
-  content: '';
-  display: inline-block;
-  border: 4px solid #55ff0069;
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  margin-left: -7.5px;
-  margin-top: -7.5px;
-}
-
-/* ProductCard - Interi-Customizer*/
+/* ProductCard - InteriCustomizer*/
 
 .container-customize2 {
   width: 280px;
@@ -717,17 +723,23 @@ a.button{
   padding: 2px 2px 2px 2px;
 }
 
-.ul-color3 li a.lillefaelge {
+.ul-color3 li a.lillerim {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0) 0%,#2c536444 100%),url(https://previews.dropbox.com/p/thumb/AA9dU1B4fdCDI7Rewm3buamxp882pO4Cz_9kJDA7oZCa7w8aPhuN4inpN30fCNxn7-px9dOyNiFsHsKYWb6v0EPncFOhPusVn3sgxVL8lRGPHscECFwC7ElxbnilRyXXEtseW3IdAui9VcYAh3yqAyhKu8guzSgP6O62QcbJG1txf6AFbQZ4lQiRfEZNx61nH-9Cq6ph21Fl7QVQgME3yEFD0JmHjE_2SPWFuGakD6vT9UyLeIxAv5WJXTW58gWJZ__IqjtdpkU_Ke7fFXeCetvbm6xGU0X4HKNiJe5pbu7C0OUkXdg-Uhqg45OoJXcvYteOIcjgEbLUG33ziUe6xo3PZvdEs8gm3ez6rVQ7XkEkjA/p.jpeg?fv_content=true&size_mode=5)
   center center no-repeat;
   background-size: cover;
 }
 
-.ul-color3 li a.storfaelge {
+.ul-color3 li a.storrim {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0) 0%,#2c536444 100%),url(https://previews.dropbox.com/p/thumb/AA_n-LIDfWGEf-dX2RkqCdOEIhRysQ0Tn5EAVB-uIP-H1zXkyWWM1aoEYjE0dc5yUMtgUUynWVsAQBegcXR5Kd2PMCUmdHZsmoVlG0WWWBiVFkuxsBYpESKAm_RyK_1e_vPZbU3wbMWoKWYE0-tI8mf0EiHwEP32HcrrwUx8FmXa09q72IVPtnLDczHhCNRur5CgauKAgCmeob21Nwye6OjmT6UBDzAPZbWTZz6JpsAOGIpmAoPHdYXQyRPQBAJKk7uKDfPFARZ7GuQQQP3wUpC8y3Q_xOTss8Xp0HHekXWB5gVSlbSOIPNI9aiyi3n1E6VxvXe04hzVYejHZCExoPRYV3HrcQQmncNwcVqQQsPNJg/p.jpeg?fv_content=true&size_mode=5)
     center center no-repeat;
     background-size: cover;
 }
+
+@media screen and (min-width: 40.375em) {
+  .customize > * {
+    align-items: row;
+  }
+
 
 /* footer */
 
