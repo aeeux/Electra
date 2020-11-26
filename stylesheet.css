@@ -426,7 +426,7 @@ a.button-customize{
 .product-color h4 {
   font-size: 11px;
   padding: 0 0px;
-  margin: 60px 0px 0px 95px;
+  margin: 60px 0px 0px 0px;
   padding-bottom: 20px;
   text-transform: uppercase;
 }
@@ -471,12 +471,6 @@ a.button-customize{
 
 /* ProductCard - InteriCustomizer*/
 
-.container-customize2 {
-  width: 280px;
-  height: 500px;
-  margin: 50px 50px 50px 45px;
-}
-
 .card-head2 {
   position: relative;
   height: 252px;
@@ -485,12 +479,12 @@ a.button-customize{
 
 .product-img2 {
   position: absolute;
-  margin-top: 70px;
-  margin-left: 0px;
+  margin-top: 95px;
+  margin-left: -140px;
   width: 100%;
-  height: 70%;
+  height: 60%;
   opacity: 100%;
-  border-radius: 5px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .product-detail2 {
@@ -567,7 +561,7 @@ a.button-customize{
 .product-color2 h4 {
   font-size: 11px;
   padding: 0 0px;
-  margin: 60px 0px 0px 95px;
+  margin: 60px 0px 0px 0px;
   padding-bottom: 20px;
   text-transform: uppercase;
 }
@@ -602,13 +596,7 @@ a.button-customize{
     background-size: cover;
 }
 
-/* ProductCard - InteriÃ¸r Customizer*/
-
-.container-customize3 {
-  width: 280px;
-  height: 500px;
-  margin: 50px 50px 50px 45px;
-}
+/* ProductCard - Interi Customizer*/
 
 .card-head3 {
   position: relative;
@@ -700,7 +688,7 @@ a.button-customize{
 .product-color3 h4 {
   font-size: 11px;
   padding: 0 0px;
-  margin: 60px 0px 0px 95px;
+  margin: 60px 0px 0px 0px;
   padding-bottom: 20px;
   text-transform: uppercase;
 }
@@ -724,13 +712,13 @@ a.button-customize{
 }
 
 .ul-color3 li a.lillerim {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0) 0%,#2c536444 100%),url(https://previews.dropbox.com/p/thumb/AA9dU1B4fdCDI7Rewm3buamxp882pO4Cz_9kJDA7oZCa7w8aPhuN4inpN30fCNxn7-px9dOyNiFsHsKYWb6v0EPncFOhPusVn3sgxVL8lRGPHscECFwC7ElxbnilRyXXEtseW3IdAui9VcYAh3yqAyhKu8guzSgP6O62QcbJG1txf6AFbQZ4lQiRfEZNx61nH-9Cq6ph21Fl7QVQgME3yEFD0JmHjE_2SPWFuGakD6vT9UyLeIxAv5WJXTW58gWJZ__IqjtdpkU_Ke7fFXeCetvbm6xGU0X4HKNiJe5pbu7C0OUkXdg-Uhqg45OoJXcvYteOIcjgEbLUG33ziUe6xo3PZvdEs8gm3ez6rVQ7XkEkjA/p.jpeg?fv_content=true&size_mode=5)
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0) 0%,#2c536444 100%),url(images/fælge3.png)
   center center no-repeat;
   background-size: cover;
 }
 
 .ul-color3 li a.storrim {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0) 0%,#2c536444 100%),url(https://previews.dropbox.com/p/thumb/AA_n-LIDfWGEf-dX2RkqCdOEIhRysQ0Tn5EAVB-uIP-H1zXkyWWM1aoEYjE0dc5yUMtgUUynWVsAQBegcXR5Kd2PMCUmdHZsmoVlG0WWWBiVFkuxsBYpESKAm_RyK_1e_vPZbU3wbMWoKWYE0-tI8mf0EiHwEP32HcrrwUx8FmXa09q72IVPtnLDczHhCNRur5CgauKAgCmeob21Nwye6OjmT6UBDzAPZbWTZz6JpsAOGIpmAoPHdYXQyRPQBAJKk7uKDfPFARZ7GuQQQP3wUpC8y3Q_xOTss8Xp0HHekXWB5gVSlbSOIPNI9aiyi3n1E6VxvXe04hzVYejHZCExoPRYV3HrcQQmncNwcVqQQsPNJg/p.jpeg?fv_content=true&size_mode=5)
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0) 0%,#2c536444 100%),url(images/fælge5.png)
     center center no-repeat;
     background-size: cover;
 }
