@@ -977,19 +977,4 @@ h2{
     .footer__nav {
       flex: 2 0px;
     }
-  } 
-
-@media screen and (max-width: 1081px) {
-  .container-customize3 {
-    margin: 0px auto auto auto;
-  }
-
-@media screen and (max-width: 1081px) {
-  .container-customize2 {
-    margin: 0px auto auto auto;
-  }
-
-@media screen and (max-width: 1081px) {
-  .container-customize1 {
-    margin: 0px auto auto auto;
-  }
+  }  
