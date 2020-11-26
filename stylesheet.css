@@ -192,9 +192,9 @@
     top: 0;
   }
   
-  /* 45.625em = 730px */
+  /* 56.25 = 900 */
   
-  @media (min-width: 45.625em) {
+  @media (min-width: 56.25) {
     .header li {
       float: left;
     }
@@ -420,8 +420,10 @@ h2{
 /* ProductCard - COLOR CUSTOMIZER */
 
 .productcards {
-  margin: auto auto auto auto;
-  position: relative;
+
+  justify-content: center;
+  display: grid;
+  margin-top: 70px;
 }
 
 .container-customize1 {
@@ -865,11 +867,12 @@ h2{
   .footer {
     display: flex;
     flex-flow: row wrap;
-    padding: 30px 30px 20px 30px;
+    padding: 10px 30px 10px 30px;
     color: #2f2f2f;
     background-color: #fff;
     border-top: 1px solid #e5e5e5;
-    margin-top: 20%;
+    margin-top: sticky;
+    margin-top: 300px;
     align-items: center;
   }
   
@@ -983,7 +986,7 @@ h2{
     }
   }
 
-  @media screen and (max-width: 1081px) {
+  @media screen and (max-width: 900px) {
     .container-customize1 {
       margin: auto; 
     }
