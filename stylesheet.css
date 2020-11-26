@@ -65,7 +65,7 @@
   line-height: 1.5;
   margin: 0px 0px 0px 0px;
   font-family: 'Sofia Pro', Sans-serif;
-  background: url('images/bmwwwwww.jpg') center no-repeat;
+  background: url('images/electraopacity.jpg') center no-repeat;
   background-position: 40% 18%;
   text-align: center;
 }
@@ -395,7 +395,7 @@ a.button{
       flex: 2 0px;
     }
   }
- 
+
   input[type=text], select, textarea {
     flex-direction: column;
     align-items: center;
@@ -410,12 +410,52 @@ a.button{
     text-align: center;
 
   } 
+  
+  .box{
+    display:flex;
+    flex-direction:row;
+    align-items:center; 
+    margin-top: 15em;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 1em; 
+    background-color: #2c5364d2;  
+  }
+  .container {
+    width:45%;  
+    background-color: #203B46;
+    padding-top: .8em;
+    padding-bottom: 2em;
+    
+
+  }
+
+  .valg{
+    width:20%;  
+    padding-bottom: 0.7rem;
+    padding-top: 0.4rem;
+    padding: 0.5rem;
+    background-color: #203B46;
+    margin-left: 1mm;
+  }
+
+  .info{
+    width:40%;  
+    padding-bottom: 0.7rem;
+    padding-top: 0.4rem;
+    padding: 0.5rem;
+    background-color: #203B46;
+    margin-left: 1mm;
+  }
+
+  
   .container2 {
     margin-top: 100px;
     padding-left: 20%;
     padding-right: 20%;
 
   }
+
 
 
   
