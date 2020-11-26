@@ -971,74 +971,7 @@ h2{
     .footer__nav {
       flex: 2 0px;
     }
-  }
-
-  input[type=text], select, textarea {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%; 
-    padding: 12px; 
-    background: rgb(255, 255, 255);
-    box-sizing: border-box;
-    margin-top:1.5rem;
-    border: none;
-    border-radius: 50px;
-    text-align: center;
-
-  } 
-
-  .container2 {
-    margin-top: 60px;
-    padding-left: 20%;
-    padding-right: 20%;
-
-  }
-  
-  .box{
-    display:flex;
-    flex-direction:row;
-    align-items:center; 
-    margin-top: 15em;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    padding: 1em; 
-    background-color: #2c5364d2;  
-  }
-  .container {
-    width:45%;  
-    background-color: #203B46;
-    padding-top: 0.11em;
-    padding-bottom: 1.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    
-
-  }
-
-  .valg{
-    width:20%;  
-    padding-bottom: 0.7rem;
-    padding-top: 0.4rem;
-    padding: 0.5rem;
-    background-color: #203B46;
-    margin-left: 1mm;
-  }
-
-  .info{
-    width:40%;  
-    padding-bottom: 0.7rem;
-    padding-top: 0.4rem;
-    padding: 0.5rem;
-    background-color: #203B46;
-    margin-left: 1mm;
-  }
-
-  section p{
-    font-weight: 100;
-    font-size: 90%;
-  }
-  
+  }  
   
 }
 
