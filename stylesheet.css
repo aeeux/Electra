@@ -28,6 +28,15 @@
   text-align: center;
 }
 
+.customize {
+  background-color: var(--moonlitasteroid);
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Sofia Pro', Sans-serif;
+  text-align: center;
+}
+
 .voresteknologi {
   background-color: var(--moonlitasteroid);
   font-size: 1em;
@@ -387,4 +396,3 @@ a.button{
     }
   }
 
-  
