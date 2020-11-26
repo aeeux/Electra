@@ -861,6 +861,13 @@ a.button-customize{
     text-align: center;
 
   } 
+
+  .container2 {
+    margin-top: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+  }
   
   .box{
     display:flex;
@@ -906,12 +913,8 @@ a.button-customize{
     font-size: 90%;
   }
   
-  .container2 {
-    margin-top: 100px;
-    padding-left: 20%;
-    padding-right: 20%;
-
-  }
+  
+}
 
 
 
