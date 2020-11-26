@@ -866,7 +866,7 @@ a.button-customize{
     display:flex;
     flex-direction:row;
     align-items:center; 
-    margin-top: 15em;
+    margin-top: 5em;
     margin-left: 10rem;
     margin-right: 10rem;
     padding: 1em; 
@@ -906,6 +906,12 @@ a.button-customize{
     font-size: 90%;
   }
   
+  h2{
+    color:var(--white);
+    font-size: 24px;
+    font-weight: bolder;
+  }
+
   .container2 {
     margin-top: 100px;
     padding-left: 20%;
@@ -913,12 +919,76 @@ a.button-customize{
 
   }
 
+  @media (max-width: 1150px) {
+    .box{
+      display:flex;
+      flex-direction:column;
+      align-items:center; 
+      margin-top: 4em;
+      margin-left: 10rem;
+      margin-right: 10rem;
+      padding: 1em; 
+      background-color: #2c5364d2;  
+    }
 
-
+    .container {
+      width:100%;  
+      background-color: #203B46;
+           
   
- 
-
-   
+    }
   
+    .valg{
+      width:100%;  
+      background-color: #203B46;
+      margin: 0;
+      margin-top:0.5em ;
+      margin-bottom: 0.5em;
 
+    }
+  
+    .info{
+      width:100%;  
+      background-color: #203B46;
+      margin: 0;
+      
+    }
+    
+  }
 
+  @media (max-width: 375px) {
+    .box{
+      display:flex;
+      flex-direction:column;
+      align-items:center; 
+      margin-top: 4em;
+      margin-left: 10rem;
+      margin-right: 10rem;
+      padding: 1em; 
+      background-color: #2c5364d2;  
+    }
+
+    .container {
+      width:100%;  
+      background-color: #203B46;
+           
+  
+    }
+  
+    .valg{
+      width:100%;  
+      background-color: #203B46;
+      margin: 0;
+      margin-top:0.5em ;
+      margin-bottom: 0.5em;
+
+    }
+  
+    .info{
+      width:100%;  
+      background-color: #203B46;
+      margin: 0;
+      
+    }
+    
+  }
